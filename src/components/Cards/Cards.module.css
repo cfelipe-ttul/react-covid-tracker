@@ -1,0 +1,37 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  border-bottom: 10px solid rgba(155, 155, 0, 0.5);
+}
+
+.infectedFont {
+  color: rgb(155, 155, 0) !important;
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(0, 205, 0, 0.5);
+}
+
+.recoveredFont {
+  color: rgb(0, 205, 0) !important;
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.deathsFont {
+  color: rgb(255, 0, 0) !important;
+}
+
+@media (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}
